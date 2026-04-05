@@ -20,6 +20,34 @@ Construir uma pagina de apresentacao moderna, jovem e musical para divulgar o Me
 - Google Fonts
 - JavaScript puro
 
+## Funcionalidades
+
+- hero com destaque visual para o app e player em evidencia
+- secao de beneficios com foco em descoberta musical e usabilidade
+- secao de funcionalidades com playlists inteligentes, busca e modo offline
+- secao de depoimentos com apresentacao de comentarios de usuarios
+- secao de contato com formulario e feedback visual de envio
+- menu mobile com abertura e fechamento por botao, links e tecla `Esc`
+- header com alteracao de estilo durante o scroll
+
+## Como executar
+
+1. Clone este repositorio.
+2. Abra a pasta do projeto no VS Code.
+3. Execute a pagina com a extensao Live Server.
+4. Acesse o projeto no navegador pela porta configurada no seu ambiente local.
+
+Se preferir, tambem e possivel abrir o arquivo `index.html` diretamente no navegador.
+
+## Preview do projeto
+
+O projeto foi desenvolvido como uma landing page estatica responsiva, com foco em:
+
+- apresentacao visual moderna
+- navegacao simples
+- interacoes leves com JavaScript
+- boa leitura em desktop e mobile
+
 ## Estrutura de pastas
 
 ```text
