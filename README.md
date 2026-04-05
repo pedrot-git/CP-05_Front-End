@@ -24,12 +24,16 @@ Construir uma pagina de apresentacao moderna, jovem e musical para divulgar o Me
 
 ```text
 .
-|-- prints/
 |-- README.md
 |-- index.html
 `-- src/
     |-- assets/
     |   `-- img/
+    |       |-- Depoimento-01.jpg
+    |       |-- Depoimento-02.jpg
+    |       |-- Depoimento-03.jpg
+    |       |-- logo-mark.svg
+    |       `-- player-cover.jpg
     |-- css/
     |   `-- main.css
     `-- js/
