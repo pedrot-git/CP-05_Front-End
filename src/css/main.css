@@ -28,3 +28,45 @@ img {
 a {
   text-decoration: none;
 }
+
+::selection {
+  background: rgba(168, 85, 247, 0.28);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.85), rgba(56, 189, 248, 0.7));
+  border-radius: 999px;
+}
+
+[data-header].is-scrolled {
+  background: rgba(9, 10, 15, 0.9);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+[data-mobile-menu].is-open {
+  display: block;
+}
+
+.menu-open {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  [data-header] {
+    transition: none;
+  }
+}
