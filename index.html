@@ -343,7 +343,62 @@
         </div>
       </div>
     </section>
-    <section id="contato"></section>
+    <section id="contato" class="border-t border-white/10 pb-20 pt-20 lg:pb-24">
+      <div class="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[0.88fr_1.12fr] lg:px-10">
+        <div class="max-w-xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.24em] text-electric">Contato</p>
+          <h2 class="mt-4 font-display text-4xl font-bold tracking-[-0.04em] text-white">
+            Deixe seu contato para receber novidades do Melodia.
+          </h2>
+          <p class="mt-5 text-base leading-8 text-white/65">
+            Se voce quiser acompanhar o projeto, e so enviar nome, e-mail e o que mais gostaria de ver no app.
+          </p>
+
+          <ul class="mt-8 space-y-3 text-sm text-white/70">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 text-lime"><i class="fa-solid fa-circle-check"></i></span>
+              <span>Cadastro simples e rapido.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 text-electric"><i class="fa-solid fa-circle-check"></i></span>
+              <span>Atualizacoes sobre playlists, testes e novas funcoes.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 text-pulse"><i class="fa-solid fa-circle-check"></i></span>
+              <span>Sem exagero no texto e sem promessas desnecessarias.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rounded-3xl border border-white/10 bg-panel px-6 py-6">
+          <form id="contact-form" class="grid gap-5">
+            <div class="grid gap-5 md:grid-cols-2">
+              <label class="grid gap-2 text-sm font-medium text-white/75">
+                Nome
+                <input type="text" name="nome" placeholder="Seu nome" required class="rounded-2xl border border-white/10 bg-[#0d1017] px-5 py-4 text-white outline-none transition placeholder:text-white/30 focus:border-electric focus:ring-2 focus:ring-electric/20">
+              </label>
+              <label class="grid gap-2 text-sm font-medium text-white/75">
+                E-mail
+                <input type="email" name="email" placeholder="voce@email.com" required class="rounded-2xl border border-white/10 bg-[#0d1017] px-5 py-4 text-white outline-none transition placeholder:text-white/30 focus:border-pulse focus:ring-2 focus:ring-pulse/20">
+              </label>
+            </div>
+
+            <label class="grid gap-2 text-sm font-medium text-white/75">
+              Interesse
+              <textarea name="interesse" rows="5" placeholder="Quero acompanhar o projeto e saber quando tiver novidades." required class="rounded-2xl border border-white/10 bg-[#0d1017] px-5 py-4 text-white outline-none transition placeholder:text-white/30 focus:border-lime focus:ring-2 focus:ring-lime/20"></textarea>
+            </label>
+
+            <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <button type="submit" class="inline-flex items-center justify-center gap-3 rounded-full bg-white px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-night transition hover:bg-white/90">
+                <span>Enviar</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <p id="form-feedback" class="text-sm text-white/55" aria-live="polite">Preencha os campos e envie.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="border-t border-white/10 bg-[#07080d]">
     <div class="mx-auto grid max-w-7xl gap-10 px-6 py-10 lg:grid-cols-[1fr_auto_auto] lg:px-10">
