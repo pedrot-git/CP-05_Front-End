@@ -1,0 +1,30 @@
+:root {
+  --bg: #090a0f;
+  --panel: #11131a;
+  --text: #f8fafc;
+  --muted: rgba(203, 213, 225, 0.78);
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
