@@ -2,6 +2,11 @@
 
 Landing page autoral para o app ficticio Melodia, criada para apresentar uma experiencia de descoberta musical com playlists personalizadas, som de alta qualidade e interface intuitiva.
 
+## Acesse online
+
+Projeto publicado no GitHub Pages:
+https://pedrot-git.github.io/CP-05_Front-End/
+
 ## Objetivo
 
 Construir uma pagina de apresentacao moderna, jovem e musical para divulgar o Melodia, reforcando:
@@ -39,6 +44,9 @@ Construir uma pagina de apresentacao moderna, jovem e musical para divulgar o Me
 
 Se preferir, tambem e possivel abrir o arquivo `index.html` diretamente no navegador.
 
+Voce tambem pode visualizar a versao publicada em:
+https://pedrot-git.github.io/CP-05_Front-End/
+
 ## Preview do projeto
 
 O projeto foi desenvolvido como uma landing page estatica responsiva, com foco em:
@@ -47,6 +55,9 @@ O projeto foi desenvolvido como uma landing page estatica responsiva, com foco e
 - navegacao simples
 - interacoes leves com JavaScript
 - boa leitura em desktop e mobile
+
+Versao online:
+https://pedrot-git.github.io/CP-05_Front-End/
 
 ## Estrutura de pastas
 
