@@ -7,6 +7,16 @@ Landing page autoral para o app ficticio Melodia, criada para apresentar uma exp
 Projeto publicado no GitHub Pages:
 https://pedrot-git.github.io/CP-05_Front-End/
 
+## Grupo
+
+Nome do grupo: UMKTO
+
+### Integrantes
+
+- Pedro Henrique Tavares Viana - RM: 567680
+- David Ernesto Mogollon Gama - RM: 567855
+- Roger De Carvalho Paiva - RM: 566949
+
 ## Objetivo
 
 Construir uma pagina de apresentacao moderna, jovem e musical para divulgar o Melodia, reforcando:
