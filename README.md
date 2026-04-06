@@ -45,6 +45,15 @@ Construir uma pagina de apresentacao moderna, jovem e musical para divulgar o Me
 - menu mobile com abertura e fechamento por botao, links e tecla `Esc`
 - header com alteracao de estilo durante o scroll
 
+## Estrutura da landing page
+
+- `Home`: apresenta o app Melodia com chamada principal e um player visual em destaque.
+- `Beneficios`: mostra os diferenciais centrais da experiencia, como descoberta musical, personalizacao e qualidade de audio.
+- `Funcionalidades`: detalha recursos praticos do app, como playlists inteligentes, recomendacoes, busca e modo offline.
+- `Depoimentos`: reforca a proposta do projeto com comentarios de usuarios ficticios.
+- `Contato`: oferece um formulario simples para acompanhar novidades do projeto.
+- `Rodape`: concentra identidade visual, formas de contato e links para redes sociais.
+
 ## Como executar
 
 1. Clone este repositorio.
